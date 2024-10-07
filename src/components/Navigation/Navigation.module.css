@@ -1,0 +1,25 @@
+.wrapperLinks {
+  background-color: rgb(31, 28, 28);
+  display: flex;
+  gap: 20px;
+  border-bottom: 5px solid #a39494;
+  height: 40px;
+  align-items: center;
+  padding-left: 20px;
+}
+.link {
+  color: #a39494;
+  font-size: x-large;
+}
+.activeLink {
+  color: #83a896;
+}
+
+.navItem {
+  font-size: x-large;
+  color: #b6aaaa;
+  &:hover,
+  &:active {
+    color: #83a896;
+  }
+}

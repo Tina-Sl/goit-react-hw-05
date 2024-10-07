@@ -1,0 +1,39 @@
+.boxMessage {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.message {
+  color: rgb(236, 209, 54);
+  margin-bottom: 50px;
+}
+
+.linkToBegin {
+  width: 120px;
+  display: inline-block;
+  background-color: lightskyblue;
+  padding: 8px 20px 8px 0;
+  border: 1px solid #e2d5e9;
+  border-radius: 8px;
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+  transition: color 250ms cubic-bezier(0.7, 0.98, 0.86, 0.98),
+    background-color 250 mscubic-bezier(0.7, 0.98, 0.86, 0.98);
+}
+.linkToBegin .toy {
+  color: transparent;
+}
+
+.linkToBegin:hover,
+.linkToBegin:focus {
+  padding-left: 12px;
+  padding-right: 12px;
+  color: #a8f0e6;
+  background-color: #1542be;
+}
+
+.linkToBegin:hover .toy,
+.linkToBegin:focus .toy {
+  color: #a8f0e6;
+}

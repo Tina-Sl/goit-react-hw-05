@@ -1,0 +1,132 @@
+.mainContainer {
+  width: 1350px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #0b2b41;
+  border: 1px solid #d7eef1;
+  position: relative;
+}
+.boxTitle {
+  padding-top: 10px;
+  background-color: #07141e;
+  border: 1px solid #d7eef1;
+}
+.movieTitle {
+  font-size: 1.5em;
+  text-align: center;
+  margin: 0 0 10px 0;
+  color: #fcc10f;
+}
+
+.movieCard {
+  display: flex;
+  overflow: hidden;
+  margin-bottom: 40px;
+}
+.movieInfo {
+  padding-left: 15px;
+  padding-top: 10px;
+}
+.movieBackdrop {
+  display: block;
+  width: 500px;
+  height: auto;
+  object-fit: cover;
+}
+
+.movieContent {
+  background-color: #041f33;
+  padding: 10px;
+  color: darkgray;
+  margin-bottom: 20px;
+}
+.movieGenresBox {
+  margin-bottom: 40px;
+}
+
+.movieGenres {
+  font-size: 20px;
+  color: #e9c62c;
+}
+.movieGenresInfo {
+  background-color: #031724;
+  color: darkgray;
+  font-weight: bold;
+  font-size: 18px;
+  padding: 10px;
+}
+
+.moviePropBox {
+  width: max-content;
+  height: 20px;
+  background-color: #031724;
+  color: #c7dde4;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+.moviePropText {
+  color: darkgray;
+}
+
+.detailsTitle {
+  padding-top: 4px;
+  text-align: center;
+  background-color: #031724;
+  color: #d5f0ea;
+}
+.detailsInfo {
+  display: flex;
+  background-color: #031724;
+}
+
+.backBtn {
+  width: 100px;
+  height: 20px;
+  background-color: #c7dde4;
+  border-radius: 8px;
+  overflow: hidden;
+  padding: 10px 25px;
+  text-decoration: none;
+  color: #555;
+  font-size: 16px;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  transition: 0.3s ease;
+}
+
+.backBtn:hover {
+  font-weight: bold;
+  background-color: #587179;
+  color: #c7dde4;
+}
+
+.btnLink {
+  padding: 6px 10px 6px 10px;
+  color: #e2d5e9;
+  font-size: 18px;
+  font-weight: 700;
+  border-radius: 8px;
+  margin-left: 10px;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+}
+
+.btnLinkActive {
+  color: #0c3b49;
+  background-color: #e2d5e9;
+  pointer-events: none;
+}
+
+.btnLink:hover,
+.btnLink:focus {
+  background-color: #095196;
+  color: #f6f6f6;
+}
+.btnLinkActiveinkActive {
+  background-color: #095196;
+  color: #f6f6f6;
+}

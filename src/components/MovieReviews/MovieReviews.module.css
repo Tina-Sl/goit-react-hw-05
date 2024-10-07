@@ -1,0 +1,70 @@
+.reviewsList {
+  margin-top: 20px;
+}
+.reviewItem {
+  color: #e9c62c;
+  margin-bottom: 20px;
+}
+
+.reviewContent {
+  display: block;
+  background-color: #e2d5e9;
+  color: black;
+  width: calc(100% - 80px);
+  height: 48px;
+  border: 1px solid #4169e1;
+  border-radius: 8px;
+  padding: 4px 20px;
+  margin-top: 5px;
+  outline: none;
+  overflow: hidden;
+}
+.btnShow {
+  background-color: #b0e0e6;
+  color: #000;
+  border-radius: 4px;
+  padding: 2px 8px;
+  outline: none;
+}
+
+.reviewContent:focus,
+.btnShow:focus ~ .reviewContent {
+  height: auto;
+}
+.btnShow:focus {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+.btnShow:focus ~ .btnHide {
+  position: static;
+  background-color: #b0e0e6;
+  color: #000;
+  border-radius: 4px;
+  width: auto;
+  height: 20px;
+  padding: 2px 8px;
+  margin: 0;
+  margin-top: 8px;
+  clip-path: inset(0%);
+  overflow: visible;
+}
+.btnHide {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
